@@ -1,6 +1,6 @@
-**Code for Node Detection an dtRcaking in microscopic Phase Images for Cell Force Microscopy**
+**Code for Node Detection and Tracking in microscopic Phase Images for Cell Force Microscopy**
 
-This codebase expects input in either phase image format or Fluroscent image format. If Phase images are used as input then a Pix2Pix model is used to generate fake fluroscent images and then the node detection and tracking network is used for tracking nodes to calucalute displacement and cell forces. 
+This codebase expects input in either Phase image format or Fluroscent image format. If Phase images are used as input then a Pix2Pix model is used to generate fake fluroscent images and then the node detection and tracking network is used for tracking nodes to calucalute displacement and cell forces. 
 
 ***For training:***
 1. Train Pix2Pix using code from Pix2Pix repository, also placed in *Pix2Pix/*
