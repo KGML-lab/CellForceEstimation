@@ -3,7 +3,7 @@
 This codebase expects input in either Phase image format or Fluroscent image format. If Phase images are used as input then a Pix2Pix model is used to generate fake fluroscent images and then the node detection and tracking network is used for tracking nodes to calucalute displacement and cell forces. 
 
 ***For training:***
-1. Train Pix2Pix using code from Pix2Pix repository, also placed in *Pix2Pix/*
+1. Train Pix2Pix using code from [Pix2Pix](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix) repository, also placed in *Pix2Pix/*
     Refer to tips  in *Pix2Pix/pytorch-CycleGAN-and-pix2pix/docs/tips.md*
 2. Node detection network with the train script in *src/*
 
